@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Java Script Arrays</h2>
+    <p id="myjoin"></p>
+    <p id="myfirstpoint"></p>
+    <p id="mysecondpoint"></p>
+    <script>
+        var vehicles = ["Cars","Motobikes","Boats","Airplanes","Bikes","scooter"];
+        document.getElementById("myjoin").innerHTML =vehicles.join("&");
+        document.getElementById("myfirstpoint").innerHTML = vehicles;
+        vehicles.pop();
+        document.getElementById("mysecondpoint").innerHTML = vehicles
+    </script>
+</body>
+</html>
